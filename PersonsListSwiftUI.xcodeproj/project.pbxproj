@@ -11,6 +11,10 @@
 		CD7BE52528203EC5006B0537 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD7BE52428203EC5006B0537 /* ContentView.swift */; };
 		CD7BE52728203EC8006B0537 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD7BE52628203EC8006B0537 /* Assets.xcassets */; };
 		CD7BE52A28203EC8006B0537 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD7BE52928203EC8006B0537 /* Preview Assets.xcassets */; };
+		CD7BE53128203F53006B0537 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD7BE53028203F53006B0537 /* DataManager.swift */; };
+		CD7BE53328203F64006B0537 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD7BE53228203F64006B0537 /* Person.swift */; };
+		CD7BE53A2821AF5C006B0537 /* ContactList.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD7BE5392821AF5C006B0537 /* ContactList.swift */; };
+		CD7BE53C2821B068006B0537 /* ContactInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD7BE53B2821B068006B0537 /* ContactInfo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +23,10 @@
 		CD7BE52428203EC5006B0537 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		CD7BE52628203EC8006B0537 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CD7BE52928203EC8006B0537 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CD7BE53028203F53006B0537 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		CD7BE53228203F64006B0537 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		CD7BE5392821AF5C006B0537 /* ContactList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactList.swift; sourceTree = "<group>"; };
+		CD7BE53B2821B068006B0537 /* ContactInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactInfo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,9 +59,11 @@
 		CD7BE52128203EC5006B0537 /* PersonsListSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
-				CD7BE52228203EC5006B0537 /* PersonsListSwiftUIApp.swift */,
-				CD7BE52428203EC5006B0537 /* ContentView.swift */,
-				CD7BE52628203EC8006B0537 /* Assets.xcassets */,
+				CD7BE53628203F99006B0537 /* Views */,
+				CD7BE53528203F86006B0537 /* Models */,
+				CD7BE53428203F77006B0537 /* Services */,
+				CD7BE53728203FB6006B0537 /* App */,
+				CD7BE53828203FBF006B0537 /* Resources */,
 				CD7BE52828203EC8006B0537 /* Preview Content */,
 			);
 			path = PersonsListSwiftUI;
@@ -65,6 +75,48 @@
 				CD7BE52928203EC8006B0537 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CD7BE53428203F77006B0537 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				CD7BE53028203F53006B0537 /* DataManager.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		CD7BE53528203F86006B0537 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				CD7BE53228203F64006B0537 /* Person.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		CD7BE53628203F99006B0537 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CD7BE52428203EC5006B0537 /* ContentView.swift */,
+				CD7BE5392821AF5C006B0537 /* ContactList.swift */,
+				CD7BE53B2821B068006B0537 /* ContactInfo.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		CD7BE53728203FB6006B0537 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				CD7BE52228203EC5006B0537 /* PersonsListSwiftUIApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		CD7BE53828203FBF006B0537 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				CD7BE52628203EC8006B0537 /* Assets.xcassets */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +189,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD7BE53C2821B068006B0537 /* ContactInfo.swift in Sources */,
 				CD7BE52528203EC5006B0537 /* ContentView.swift in Sources */,
+				CD7BE53128203F53006B0537 /* DataManager.swift in Sources */,
+				CD7BE53328203F64006B0537 /* Person.swift in Sources */,
 				CD7BE52328203EC5006B0537 /* PersonsListSwiftUIApp.swift in Sources */,
+				CD7BE53A2821AF5C006B0537 /* ContactList.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
