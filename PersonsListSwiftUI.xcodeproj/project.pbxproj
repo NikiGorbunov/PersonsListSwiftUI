@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CD509A142821C91D00896F18 /* NumberList.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD509A132821C91D00896F18 /* NumberList.swift */; };
 		CD7BE52328203EC5006B0537 /* PersonsListSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD7BE52228203EC5006B0537 /* PersonsListSwiftUIApp.swift */; };
 		CD7BE52528203EC5006B0537 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD7BE52428203EC5006B0537 /* ContentView.swift */; };
 		CD7BE52728203EC8006B0537 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD7BE52628203EC8006B0537 /* Assets.xcassets */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CD509A132821C91D00896F18 /* NumberList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberList.swift; sourceTree = "<group>"; };
 		CD7BE51F28203EC5006B0537 /* PersonsListSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PersonsListSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD7BE52228203EC5006B0537 /* PersonsListSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonsListSwiftUIApp.swift; sourceTree = "<group>"; };
 		CD7BE52428203EC5006B0537 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -97,6 +99,7 @@
 			isa = PBXGroup;
 			children = (
 				CD7BE52428203EC5006B0537 /* ContentView.swift */,
+				CD509A132821C91D00896F18 /* NumberList.swift */,
 				CD7BE5392821AF5C006B0537 /* ContactList.swift */,
 				CD7BE53B2821B068006B0537 /* ContactInfo.swift */,
 			);
@@ -191,6 +194,7 @@
 			files = (
 				CD7BE53C2821B068006B0537 /* ContactInfo.swift in Sources */,
 				CD7BE52528203EC5006B0537 /* ContentView.swift in Sources */,
+				CD509A142821C91D00896F18 /* NumberList.swift in Sources */,
 				CD7BE53128203F53006B0537 /* DataManager.swift in Sources */,
 				CD7BE53328203F64006B0537 /* Person.swift in Sources */,
 				CD7BE52328203EC5006B0537 /* PersonsListSwiftUIApp.swift in Sources */,

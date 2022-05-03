@@ -50,7 +50,7 @@ extension Person {
 }
 
 
-enum Contacts: String {
-    case phone = "phone"
-    case mail = "tray"
-}
+//enum Contacts: String {
+//    case phone = "phone"
+//    case mail = "tray"
+//}

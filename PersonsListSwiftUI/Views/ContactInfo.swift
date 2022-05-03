@@ -22,7 +22,7 @@ struct ContactInfo: View {
                 Spacer()
             }
             Label(person.phone, systemImage: "phone.fill")
-            Label(person.mail, systemImage: "tray.fill")
+            Label(person.mail, systemImage: "envelope.fill")
         }
         .navigationTitle(person.fullName)
     }
