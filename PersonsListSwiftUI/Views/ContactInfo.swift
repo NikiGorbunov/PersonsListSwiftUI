@@ -12,6 +12,7 @@ struct ContactInfo: View {
     let person: Person
     
     var body: some View {
+        // Form или List
         List {
             HStack {
                 Spacer()

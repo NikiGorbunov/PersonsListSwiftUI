@@ -11,13 +11,16 @@ struct NumberList: View {
     let persons: [Person]
     
     var body: some View {
-        List(persons) { person in
-            Section {
-                Label(person.phone, systemImage: "phone")
-                Label(person.mail, systemImage: "envelope")
-            } header: {
-                Text("\(person.fullName)")
+        NavigationView {
+            List(persons) { person in
+                Section(header: Text(person.fullName).font(.headline)) {
+                    Label(person.phone, systemImage: "phone")
+                    Label(person.mail, systemImage: "envelope")
+                }
+                // что бы не было Caps
+                .textCase(.none)
             }
+            .navigationTitle("Contact List")
         }
     }
 }
